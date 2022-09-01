@@ -13,6 +13,7 @@ body {
   font-weight: 400;
   font-size: 18px;
   line-height: 29px;
+  color: #000000;
 }
 
 ul {
@@ -42,6 +43,23 @@ img {
   font-size: 16px;
   line-height: 24px;
   color: #ffffff;
+}
+
+.ff-gelasio {
+  font-family: "Gelasio", serif;
+  font-weight: 500;
+}
+
+.inner-title {
+  font-size: 43px;
+  line-height: 60px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.inner-subtitle {
+  opacity: 0.6;
+  text-align: center;
 }
 
 .container {
@@ -120,4 +138,58 @@ img {
 
 .header-bottom-link:hover {
   opacity: 0.8;
+}
+
+/* end header */
+
+/* start section location */
+
+.location {
+  padding: 140px 0;
+}
+
+.location-subtitle {
+  width: 735px;
+  margin: 0 auto;
+}
+
+.location-wrapper {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.location-block {
+  width: 360px;
+  text-align: center;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.location-block:hover {
+  box-shadow: 0px 6px 35px rgba(0, 0, 0, 0.08);
+}
+
+.location-block-title {
+  font-size: 24px;
+  line-height: 36px;
+  margin: 35px 0 10px 0;
+}
+
+.location-block:first-child .location-block-text {
+  padding: 0 27px 33px 27px;
+  opacity: 0.6;
+}
+
+.location-block:nth-child(2) .location-block-text {
+  padding: 0 34px 33px 37px;
+  opacity: 0.6;
+}
+
+.location-block:last-child(2) .location-block-text {
+  padding: 0 13px 33px 13px;
+  opacity: 0.6;
 }
