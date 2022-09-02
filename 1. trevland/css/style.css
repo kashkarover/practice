@@ -193,3 +193,122 @@ img {
   padding: 0 13px 33px 13px;
   opacity: 0.6;
 }
+
+/* end section location */
+
+/* start section slider */
+
+.slider {
+  padding-bottom: 57px;
+}
+
+.slider-subtitle {
+  width: 656px;
+  margin: 0 auto 60px auto;
+}
+
+.sliders__block-wrapp {
+  width: 262px;
+  margin: 0 auto;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.sliders__block-wrapp:hover {
+  opacity: 0.5;
+}
+
+.sliders__block-title {
+  font-size: 24px;
+  line-height: 36px;
+  margin: 20px 0 8px 0;
+}
+
+.sliders__block-loc {
+  padding-left: 21px;
+  color: #00000060;
+  position: relative;
+}
+
+/* Иконка с помощью пвседоэлемента */
+.sliders__block-loc:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 11px;
+  height: 16px;
+  background: url(../images/loc.svg) no-repeat center;
+  transform: translateY(-50%);
+}
+
+/* Иконка с помощью bg */
+.sliders__block-star {
+  padding-left: 34px;
+  background: url(../images/star.svg) no-repeat left center;
+  margin-left: 50px;
+}
+
+.sliders__block-booking {
+  margin: 8px 0 8px 0;
+  color: #00000060;
+}
+
+.sliders__block-price {
+  font-weight: 500;
+}
+
+.sliders__block-price span {
+  color: #00000060;
+  font-style: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.btn-slider {
+  position: absolute;
+  z-index: 10;
+}
+
+.btn-slick-prev {
+  bottom: -50px;
+  left: 35.95%;
+}
+
+.btn-slick-next {
+  bottom: -50px;
+  right: 35.95%;
+}
+
+.slick-dots {
+  position: absolute;
+  bottom: -47px;
+  left: 50%;
+  display: flex;
+  transform: translateX(-50%);
+}
+
+.slick-dots li {
+  background-color: red;
+  font-size: 0;
+  line-height: 0;
+  background: rgba(201, 69, 59, 0.1);
+  border-radius: 10px;
+  width: 75px;
+  height: 5px;
+  transition: 0.3s;
+}
+
+.slick-dots li.slick-active {
+  background-color: #c9453b;
+}
+
+.slick-dots li:not(:last-child) {
+  margin-right: 5px;
+}
+
+.slick-dots li button {
+  font-size: 0;
+  line-height: 0;
+  border: none;
+}
