@@ -312,3 +312,169 @@ img {
   line-height: 0;
   border: none;
 }
+
+/* end section slider */
+
+/* start section news */
+
+.news {
+  padding: 140px 0 142px 0;
+}
+
+.news-subtitle {
+  width: 581px;
+  margin: 0 auto 56px auto;
+}
+
+.news__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.news__left {
+  width: 554px;
+}
+
+.news__left-title {
+  font-style: 20px;
+  line-height: 32px;
+  margin: 35px 0 10px 0;
+}
+
+.news__left-text {
+  color: #00000060;
+  margin-bottom: 10px;
+}
+
+.news__left-link {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.news__right {
+  width: 539px;
+}
+
+.news__right-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.news__right-img {
+  width: 263px;
+}
+
+.news__right-content {
+  width: 247px;
+}
+
+.news__right-wrapper:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.news__right-title {
+  font-size: 20px;
+  line-height: 30px;
+}
+.news__right-text {
+  color: #00000060;
+  margin: 10px 0 5px 0;
+}
+
+.news__right-link {
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+  opacity: 0.8;
+}
+
+/* end section news */
+
+/* start footer */
+
+.footer {
+  background: rgba(38, 148, 153, 0.04);
+  padding: 70px 0 78px 0;
+}
+
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__logo {
+  margin-bottom: 40px;
+  font-family: "Ribeye", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+}
+
+.footer__title {
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.06em;
+}
+
+.footer__link {
+  display: block;
+  margin: 10px 0 20px 0;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.06em;
+}
+
+.footer__social {
+  display: flex;
+}
+
+.footer__social li:not(:last-child) {
+  margin-right: 27px;
+}
+
+.footer__list li a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.06em;
+}
+
+.footer__list li:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.footer__subscribe-title {
+  margin-bottom: 42px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.footer__form {
+  width: 333px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-email {
+  padding: 10px 20px;
+  width: 195px;
+  border: 1px solid #000000;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.footer__btn {
+  width: 103px;
+  padding: 10px 0;
+}
+
+.footer__btn:hover {
+  opacity: 0.8;
+}
