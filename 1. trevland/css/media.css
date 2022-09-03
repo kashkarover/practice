@@ -1,0 +1,163 @@
+@media (max-width: 1200px) {
+  .header {
+    padding: 35px 10px 244px 10px;
+    overflow: hidden;
+  }
+
+  .location {
+    padding: 140px 20px;
+  }
+
+  .location-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .news__wrapper {
+    flex-wrap: wrap;
+  }
+
+  .news__left {
+    max-width: 100%;
+    margin: 0 auto 50px auto;
+  }
+
+  .news__right {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .news__right-wrapper {
+    justify-content: center;
+  }
+
+  .footer__wrapper {
+    flex-wrap: wrap;
+  }
+
+  .location-block:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 850px) {
+  .nav {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    overflow: hidden;
+  }
+
+  .header-top {
+    color: inherit;
+  }
+  .header-logo {
+    color: #fff;
+  }
+  .menu {
+    background: #fff;
+    position: absolute;
+    left: 100%;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    z-index: 2;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 30px;
+    transition: all 0.4s ease;
+  }
+
+  .menu.active {
+    left: 0;
+    transition: all 0.4s ease;
+  }
+
+  .menu-list + .menu-list {
+    margin-left: 0;
+    margin-top: 30px;
+  }
+
+  .menu-link {
+    color: #000;
+  }
+
+  .desktop-btn {
+    display: none;
+  }
+
+  .mobile-btn {
+    display: block;
+  }
+
+  .mobile-menu {
+    display: block;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-bottom-title {
+    width: 100%;
+    font-size: 50px;
+    line-height: 65px;
+  }
+
+  .header-bottom-text {
+    width: 100%;
+  }
+
+  .location-subtitle {
+    width: 95%;
+  }
+
+  .slider-subtitle {
+    width: 95%;
+  }
+
+  .news-subtitle {
+    width: 95%;
+  }
+}
+
+@media (max-width: 590px) {
+  .header-bottom {
+    margin-top: 100px;
+  }
+
+  .header {
+    padding: 35px 10px 100px 10px;
+  }
+
+  .header-bottom-title {
+    font-size: 40px;
+    line-height: 50px;
+  }
+}
+
+@media (max-width: 450px) {
+  .header-bottom-title {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .location {
+    padding: 70px 10px;
+  }
+
+  .inner-title {
+    font-size: 35px;
+    line-height: 40px;
+  }
+
+  .location-block {
+    width: 90%;
+  }
+}
+
+@media (min-width: 320px) {
+  body {
+    overflow-x: hidden;
+  }
+}
