@@ -1,3 +1,13 @@
+@media (max-width: 1300px) {
+  .btn-slick-prev {
+    left: 19%;
+  }
+
+  .btn-slick-next {
+    right: 19%;
+  }
+}
+
 @media (max-width: 1200px) {
   .header {
     padding: 35px 10px 244px 10px;
@@ -13,30 +23,33 @@
     align-items: center;
   }
 
+  .location-block:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+  .news {
+    padding: 140px 10px 143px 10px;
+  }
+
   .news__wrapper {
     flex-wrap: wrap;
-  }
-
-  .news__left {
-    max-width: 100%;
-    margin: 0 auto 50px auto;
-  }
-
-  .news__right {
-    width: 100%;
-    margin: 0 auto;
-  }
-
-  .news__right-wrapper {
+    gap: 45px;
     justify-content: center;
+  }
+
+  .footer {
+    padding: 70px 10px 78px 10px;
   }
 
   .footer__wrapper {
     flex-wrap: wrap;
+    row-gap: 30px;
   }
+}
 
-  .location-block:not(:last-child) {
-    margin-bottom: 20px;
+@media (max-width: 980px) {
+  .footer__wrapper > div {
+    width: 50%;
   }
 }
 
@@ -112,12 +125,32 @@
     width: 95%;
   }
 
-  .slider-subtitle {
-    width: 95%;
+  .location {
+    padding: 70px 20px;
+  }
+  .news {
+    padding: 50px 10px 50px 10px;
   }
 
-  .news-subtitle {
+  .footer {
+    padding: 50px 10px 50px 10px;
+  }
+
+  .footer__form {
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  .input-email {
     width: 95%;
+    margin: 0 auto;
+  }
+
+  .footer__btn {
+    width: 95%;
+    margin: 0 auto;
   }
 }
 
@@ -134,6 +167,43 @@
     font-size: 40px;
     line-height: 50px;
   }
+
+  .slider {
+    padding: 0 10px 57px 10px;
+  }
+
+  .slick-dots li {
+    width: 35px;
+  }
+
+  .news-subtitle {
+    width: 100%;
+  }
+  .news__left {
+    width: 100%;
+  }
+
+  .news__left img {
+    width: 100%;
+  }
+
+  .news__right {
+    width: 100%;
+  }
+
+  .news__right-wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 45px;
+  }
+
+  .footer__wrapper > div {
+    width: 100%;
+  }
+
+  .footer__list li:not(:last-child) {
+    margin-bottom: 10px;
+  }
 }
 
 @media (max-width: 450px) {
@@ -142,22 +212,16 @@
     line-height: 40px;
   }
 
-  .location {
-    padding: 70px 10px;
-  }
-
   .inner-title {
     font-size: 35px;
     line-height: 40px;
   }
 
+  .location {
+    padding: 70px 10px;
+  }
+
   .location-block {
     width: 90%;
-  }
-}
-
-@media (min-width: 320px) {
-  body {
-    overflow-x: hidden;
   }
 }

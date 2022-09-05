@@ -242,7 +242,7 @@ img {
   opacity: 0.6;
 }
 
-.location-block:last-child(2) .location-block-text {
+.location-block:last-child .location-block-text {
   padding: 0 13px 33px 13px;
   opacity: 0.6;
 }
@@ -256,7 +256,7 @@ img {
 }
 
 .slider-subtitle {
-  width: 656px;
+  max-width: 656px;
   margin: 0 auto 60px auto;
 }
 
@@ -325,12 +325,12 @@ img {
 
 .btn-slick-prev {
   bottom: -50px;
-  left: 35.95%;
+  left: 29%;
 }
 
 .btn-slick-next {
   bottom: -50px;
-  right: 35.95%;
+  right: 29%;
 }
 
 .slick-dots {
