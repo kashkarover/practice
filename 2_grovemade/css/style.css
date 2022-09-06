@@ -31,9 +31,12 @@ img {
 .container {
   max-width: 1440px;
   margin: 0 auto;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3),
+  border-left: 1px solid #00000015;
+  border-right: 1px solid #00000015;
+  /*box-shadow: 6px 0 4px -4px #222, -6px 0 4px -4px #222;
+   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3),
     -23px 0 20px -23px rgba(0, 0, 0, 0.8), 23px 0 20px -23px rgba(0, 0, 0, 0.8),
-    0 0 40px rgba(0, 0, 0, 0.1) inset;
+    0 0 40px rgba(0, 0, 0, 0.1) inset; */
 }
 
 /* Header */
@@ -178,3 +181,100 @@ img {
   text-transform: uppercase;
   color: #ffffff;
 }
+
+/* Team */
+.team-top {
+  text-align: center;
+}
+
+.team-top-title {
+  padding-top: 120px;
+  font-size: 34px;
+  line-height: 36px;
+}
+
+.team-top-text {
+  max-width: 777px;
+  margin: 23px auto;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.8px;
+  color: #a0a0a0;
+}
+
+.team-top img {
+  display: inline-block;
+}
+
+.team-top-subtitle {
+  padding-top: 38px;
+  font-size: 34px;
+  line-height: 36px;
+}
+
+.team-top-subtext {
+  max-width: 777px;
+  margin: 23px auto 0 auto;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.8px;
+  color: #a0a0a0;
+}
+
+.team-members {
+  display: grid;
+  margin-top: 80px;
+  grid-template-columns: repeat(6, 202.5px);
+  grid-template-rows: repeat(4, auto);
+  column-gap: 25px;
+  row-gap: 25px;
+  justify-content: center;
+}
+
+.team-bottom {
+  text-align: center;
+}
+
+.team-bottom-title {
+  padding-top: 124px;
+  font-size: 34px;
+  line-height: 36px;
+}
+
+.team-bottom-link {
+  display: inline-block;
+  margin: 44px 0 121px 0;
+  font-size: 13px;
+  line-height: 21px;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+}
+
+/* Dream */
+.dream-wrapper {
+  max-width: 1340px;
+  margin: 0 auto 39px auto;
+  text-align: center;
+  background: #9aa8b1;
+}
+
+.dream-logo {
+  display: inline-block;
+  margin: 120px 0 24px 0;
+}
+
+.dream-title {
+  font-size: 43px;
+  line-height: 58px;
+  color: #ffffff;
+}
+
+.dream-text {
+  padding: 23px 0 121px 0;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.8px;
+  color: #ffffff;
+}
+
+/* Footer */
