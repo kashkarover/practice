@@ -31,6 +31,9 @@ img {
 .container {
   max-width: 1440px;
   margin: 0 auto;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3),
+    -23px 0 20px -23px rgba(0, 0, 0, 0.8), 23px 0 20px -23px rgba(0, 0, 0, 0.8),
+    0 0 40px rgba(0, 0, 0, 0.1) inset;
 }
 
 /* Header */
@@ -68,12 +71,12 @@ img {
   background: rgba(0, 0, 0, 0.3) url(../images/header-bg.jpg) no-repeat center;
   background-size: cover;
   padding: 188px 0 197px 0;
+  text-align: center;
 }
 
 .header-bottom-title {
   font-size: 43px;
   line-height: 46px;
-  text-align: center;
   color: #ffffff;
 }
 
@@ -81,47 +84,97 @@ img {
   margin: 12px 0 28px 0;
   font-size: 15px;
   line-height: 18px;
-  text-align: center;
   letter-spacing: 0.8px;
   color: #ffffff;
 }
 
 .header-bottom-link {
-  display: block;
+  display: inline-block;
   font-size: 13px;
   line-height: 15px;
-  text-align: center;
   letter-spacing: 1.4px;
   text-transform: uppercase;
   color: #ffffff;
 }
 
 /* Inspires */
-.inspires {
-  max-width: 1440px;
-  margin: 0 auto;
-  padding: 80px 0 120px 0;
+.inspires-top {
+  text-align: center;
 }
 
 .inspires-title {
+  padding: 80px 0 0 0;
   font-size: 43px;
   line-height: 58px;
-  text-align: center;
 }
 
 .inspires-text {
+  margin: 25px auto;
   font-size: 14px;
   line-height: 24px;
-  text-align: center;
+
   letter-spacing: 0.8px;
   color: #a0a0a0;
 }
 
 .inspires-link {
-  display: block;
+  display: inline-block;
   font-size: 13px;
   line-height: 21px;
-  text-align: center;
   letter-spacing: 1.4px;
   text-transform: uppercase;
+}
+
+.inspires-block-wrapper {
+  padding: 80px 50px 120px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.inspires-block {
+  text-align: center;
+}
+
+.inspires-block-title {
+  padding: 51px 0 24px 0;
+  font-size: 27px;
+  line-height: 30px;
+}
+
+.inspires-block-link {
+  display: inline-block;
+  margin-bottom: 14px;
+}
+
+/* Office */
+.office-wrapper {
+  background: rgba(0, 0, 0, 0.3) url(../images/office-bg.jpg) no-repeat center;
+  background-size: cover;
+  text-align: center;
+}
+
+.office-title {
+  padding-top: 174px;
+  font-size: 66px;
+  line-height: 70px;
+  color: #ffffff;
+}
+
+.office-text {
+  margin: 14px 0 30px 0;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.8px;
+  color: #ffffff;
+}
+
+.office-link {
+  display: inline-block;
+  margin-bottom: 185px;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  color: #ffffff;
 }
