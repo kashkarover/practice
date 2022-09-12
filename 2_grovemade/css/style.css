@@ -149,6 +149,34 @@ img {
   margin-bottom: 14px;
 }
 
+/* Product */
+/* .products {
+  padding-bottom: 57px;
+}
+
+.sliders-block-wrapper {
+  width: 262px;
+  margin: 0 auto;
+  cursor: pointer;
+  transition: 0.5s;
+} */
+
+.products {
+  padding-bottom: 57px;
+}
+
+.slider-subtitle {
+  max-width: 656px;
+  margin: 0 auto 60px auto;
+}
+
+.sliders-block-wrapp {
+  width: 310px;
+  margin: 0 auto;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
 /* Office */
 .office-wrapper {
   background: rgba(0, 0, 0, 0.3) url(../images/office-bg.jpg) no-repeat center;
