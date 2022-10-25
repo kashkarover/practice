@@ -198,7 +198,7 @@ img {
 /* Gallery */
 
 .gallery-new {
-  padding: 60px 0 0 130px;
+  padding: 54px 0 0 130px;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -224,8 +224,16 @@ img {
   height: 44px;
 }
 
+.gallery-main {
+  margin: 0 130px;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-template-rows: repeat(4, auto);
+  column-gap: 20px;
+  row-gap: 20px;
+}
+
 .gallery-card {
-  position: relative;
   width: 280px;
   height: 378px;
   background: #fdfdfd;
@@ -233,11 +241,35 @@ img {
   border-radius: 12px;
 }
 
-.gallery-card img {
-  position: absolute;
-  top: 8px;
-  left: 8px;
+.gallery-card__info {
+  margin: 8px 8px 0 8px;
+}
+
+.gallery-card__info img {
   border-radius: 10px;
+}
+
+.gallery-card__name {
+  margin: 16px 0 4px 8px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #00171f;
+}
+
+.gallery-prop__gene {
+  margin-left: 8px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  color: #667479;
+}
+
+.gallery-prop__age {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  color: #667479;
 }
 
 .gallery-prop {
@@ -245,4 +277,68 @@ img {
   justify-content: flex-start;
   align-items: center;
   gap: 4px;
+}
+
+.gallery-prop span {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  color: #667479;
+}
+
+.gallery-prop__gene span,
+.gallery-prop__age span {
+  margin-left: 6px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  color: #667479;
+}
+
+.gallery-prop__price {
+  margin: 4px 0 0 8px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #00171f;
+}
+
+/* Banner-1 */
+
+.banner-1 {
+  position: relative;
+  margin-left: 130px;
+  width: 1180px;
+  height: 378px;
+  background: #003459;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+#banner-1__woman {
+  position: absolute;
+  left: 20px;
+  bottom: 0;
+}
+
+#banner-1__rect1 {
+  position: absolute;
+  width: 787.54px;
+  height: 787.54px;
+  top: 190px;
+  left: -150px;
+  background: #002a48;
+  border-radius: 99px;
+  transform: rotate(28.25deg);
+}
+
+#banner-1__rect2 {
+  position: absolute;
+  width: 782.29px;
+  height: 635px;
+  left: 600px;
+  top: -225px;
+  background: #fceed5;
+  border-radius: 99px;
+  transform: rotate(25.23deg);
 }
