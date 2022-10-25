@@ -257,7 +257,7 @@ img {
   color: #00171f;
 }
 
-.gallery-prop__gene {
+.gallery-prop__1 {
   margin-left: 8px;
   font-weight: 500;
   font-size: 12px;
@@ -265,7 +265,7 @@ img {
   color: #667479;
 }
 
-.gallery-prop__age {
+.gallery-prop__2 {
   font-weight: 500;
   font-size: 12px;
   line-height: 18px;
@@ -286,8 +286,8 @@ img {
   color: #667479;
 }
 
-.gallery-prop__gene span,
-.gallery-prop__age span {
+.gallery-prop__1 span,
+.gallery-prop__2 span {
   margin-left: 6px;
   font-weight: 700;
   font-size: 12px;
@@ -340,5 +340,93 @@ img {
   top: -225px;
   background: #fceed5;
   border-radius: 99px;
-  transform: rotate(25.23deg);
+  transform: rotate(28.25deg);
+}
+
+.banner-1__info {
+  position: absolute;
+  z-index: 1000;
+  right: 85px;
+  top: 64px;
+}
+
+.banner-1__info-title {
+  text-align: right;
+  font-weight: 800;
+  font-size: 52px;
+  line-height: 68px;
+  text-transform: capitalize;
+  color: #003459;
+}
+
+.banner-1__info-subtitle {
+  text-align: right;
+  margin: 2px 0 8px 0;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  text-transform: capitalize;
+  color: #002a48;
+}
+
+.banner-1__info-text {
+  float: right;
+  margin-bottom: 34px;
+  width: 394px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: right;
+  color: #242b33;
+}
+
+.banner-1__info-links {
+  position: absolute;
+  right: 0px;
+  top: 210px;
+}
+
+.banner-1__info-links .btn-prim {
+  font-weight: 500;
+  width: 163px;
+  height: 48px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/* Gallery Foods */
+
+.gallery-foods .gallery-card {
+  height: 446px;
+}
+
+.gallery-gift {
+  margin: 20px 0 0 8px;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  width: 248px;
+  height: 34px;
+  background: #fceed5;
+  border-radius: 8px;
+}
+
+.gallery-gift img {
+  margin-left: 10px;
+  border-radius: 0;
+}
+
+.gallery-gift span {
+  margin: 0 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #002a48;
+}
+
+.gallery-gift__name {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #002a48;
 }
