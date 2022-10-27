@@ -566,3 +566,77 @@ img {
   font-size: 16px;
   line-height: 24px;
 }
+
+/* Knowledge */
+
+.knowledge .gallery-card {
+  width: 380px;
+  height: 424px;
+}
+
+.knowledge-btn {
+  margin: 16px 0 10px 8px;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 16px;
+  color: #fdfdfd;
+  background: #00a7e7;
+  border-radius: 28px;
+  width: 89px;
+  height: 20px;
+  text-align: center;
+}
+
+.knowledge-btn:before {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}
+
+.knowledge .gallery-card__name {
+  margin: 0 0 6px 8px;
+}
+
+.knowledge-text {
+  width: 348px;
+  margin: 0 8px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #242b33;
+}
+
+.overflow-dots {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.knowledge-main {
+  margin: 0 130px;
+  padding-bottom: 60px;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  column-gap: 20px;
+}
+
+/* Footer */
+
+.footer .container {
+  padding-top: 80px;
+  background: linear-gradient(
+    102.87deg,
+    #fceed5 6.43%,
+    #fceed5 78.33%,
+    #ffe7ba 104.24%
+  );
+  border-radius: 40px 40px 0px 0px;
+}
+
+.subscribe {
+  margin: 0 130px;
+  background: #003459;
+  border-radius: 16px;
+}
