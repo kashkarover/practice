@@ -118,6 +118,11 @@ body {
   border-radius: 50px;
 }
 
+.nav__list--footer a {
+  color: #0f1f1c;
+  opacity: 0.5;
+}
+
 .nav__login {
   display: flex;
   align-items: center;
@@ -133,6 +138,14 @@ body {
   font-size: 20px;
   line-height: 30px;
   color: #fff;
+}
+
+.logo a {
+  color: inherit;
+}
+
+.logo--footer {
+  color: #ff7c4e;
 }
 
 /* Button */
@@ -491,4 +504,12 @@ body {
 .subscribe-form__btn:active {
   position: relative;
   top: 1px;
+}
+
+/* Footer */
+.footer {
+  padding: 56px 0 74px;
+}
+
+.footer a {
 }
