@@ -12,7 +12,16 @@
   outline: solid 1px red;
   width: 580px;
   margin-top: 20px;
+  padding: 10px;
   background-color: white;
+  h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  #status {
+    font-size: 14px;
+    color: #b8b8bb;
+  }
 }
 
 .links {
