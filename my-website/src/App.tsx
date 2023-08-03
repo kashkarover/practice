@@ -6,13 +6,11 @@ import Links from './components/Links';
 
 function App() {
   return (
-    <div className='App'>
+    <div className='app-wrapper'>
       <Header />
-      <div className='about'>
-        <Links />
-        <Me />
-        <Info />
-      </div>
+      <Links />
+      <Me />
+      <Info />
     </div>
   );
 }
