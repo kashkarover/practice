@@ -1,19 +1,23 @@
 .Me {
   grid-area: m;
-  outline: solid 1px red;
-  background-color: #ade8f4;
-  width: 200px;
+  display: flex;
+  // outline: solid 1px red;
   margin-top: 20px;
+}
+
+.ava {
+  width: 200px;
   img {
-    max-width: 200px;
+    border: solid 1px;
+    max-width: 100%;
   }
 }
 
 .info {
-  grid-area: i;
-  outline: solid 1px red;
+  // outline: solid 1px red;
+  border: solid 1px;
   width: 580px;
-  margin-top: 20px;
+  margin-left: 20px;
   padding: 10px;
   background-color: rgba(74, 239, 151, 0.212);
   h1 {
@@ -28,11 +32,28 @@
 
 .links {
   grid-area: l;
-  outline: solid 1px red;
+  // outline: solid 1px red;
   width: 180px;
   margin-top: 20px;
 }
 
 .hr-line {
   border-color: rgb(0, 9, 0);
+}
+
+.info-block {
+  p {
+    margin: 5px 0 0 20px;
+    font-size: 14px;
+    color: #b8b8bb;
+  }
+}
+
+.about-me {
+  grid-area: m;
+  margin-top: 20px;
+  width: 800px;
+  height: 500px;
+  background-color: rgba(74, 239, 151, 0.212);
+  border: solid 1px;
 }

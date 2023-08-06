@@ -9,9 +9,13 @@ function Header() {
       {/* <p>{count}</p>
       <button onClick={() => setCount(count + 1)}>Плюс</button>
       <button onClick={() => setCount(count - 1)}>Минус</button> */}
-      <div className='logo'>kashkarover</div>
+      <div className='logo'>
+        <a href='/'>kashkarover</a>
+      </div>
       <ul>
-        <li>Обо мне</li>
+        <li>
+          <a href='/about'>Обо мне</a>
+        </li>
         <li>Мои работы</li>
         <li>Блог</li>
       </ul>
