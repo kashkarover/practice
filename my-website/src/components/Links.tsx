@@ -7,19 +7,19 @@ function Links() {
       <hr className='hr-line' />
       <ul>
         <li>
-          <a href=''></a>123123
+          <a href='#'>132312</a>
         </li>
         <li>
-          <a href=''></a>123123
+          <a href='#'>123123</a>
         </li>
         <li>
-          <a href=''></a>wqdsad
+          <a href='#'>wqdsad</a>
         </li>
         <li>
-          <a href=''></a>asdasd
+          <a href='#'>asdasd</a>
         </li>
         <li>
-          <a href=''></a>asdasd
+          <a href='#'>asdasd</a>
         </li>
       </ul>
     </div>
