@@ -6,6 +6,7 @@ import Me from './components/About/Me';
 import Header from './components/Header';
 import Links from './components/Links';
 import About from './components/About/About';
+import Counter from './components/projects/Counter';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Routes>
           <Route path='/about' element={<About />} />
           <Route path='/' element={<Me />} />
+          <Route path='/projects/counter' element={<Counter />} />
         </Routes>
       </div>
     </BrowserRouter>
