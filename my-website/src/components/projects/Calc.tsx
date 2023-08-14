@@ -42,6 +42,34 @@ export default function Calculator() {
     setRes('');
   }
 
+  function Pow_Square() {
+    setOp(document.querySelector('#pow_square')!.innerHTML);
+    console.log(op);
+    setTemp(res);
+    setRes('');
+  }
+
+  function Pow() {
+    setOp(document.querySelector('#pow')!.innerHTML);
+    console.log(op);
+    setTemp(res);
+    setRes('');
+  }
+
+  function Root_Square() {
+    setOp(document.querySelector('#root_square')!.innerHTML);
+    console.log(op);
+    setTemp(res);
+    setRes('');
+  }
+
+  function Root() {
+    setOp(document.querySelector('#root')!.innerHTML);
+    console.log(op);
+    setTemp(res);
+    setRes('');
+  }
+
   function equal() {
     setTemp('');
     switch (op) {
@@ -57,6 +85,9 @@ export default function Calculator() {
       case '/':
         result = String(Number(temp) / Number(res));
         break;
+      case 'x<sup>2</sup>':
+        result = String(Math.pow(+res, 2));
+        break;
       default:
         console.log(':)');
     }
@@ -70,6 +101,16 @@ export default function Calculator() {
       <input type='text' value={res} placeholder='0' />
       <p className='test'>sssssssss</p>
       <div className='buttons'>
+        <div className='row-5'>
+          <button id='pow_square' onClick={() => Pow_Square()}>
+            x<sup>2</sup>
+          </button>
+          <button>
+            x<sup>n</sup>
+          </button>
+          <button>r(2)</button>
+          <button>r(n)</button>
+        </div>
         <div className='row-4'>
           <button onClick={() => setRes(res + '7')}>7</button>
           <button onClick={() => setRes(res + '8')}>8</button>
