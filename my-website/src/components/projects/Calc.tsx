@@ -15,56 +15,56 @@ export default function Calculator() {
   }
 
   function Sum() {
-    setOp(document.querySelector('#sum')!.innerHTML);
+    setOp('plus');
     console.log(op);
     setTemp(res);
     setRes('');
   }
 
   function Subtraction() {
-    setOp(document.querySelector('#minus')!.innerHTML);
+    setOp('minus');
     console.log(op);
     setTemp(res);
     setRes('');
   }
 
   function Division() {
-    setOp(document.querySelector('#div')!.innerHTML);
+    setOp('division');
     console.log(op);
     setTemp(res);
     setRes('');
   }
 
   function Multiply() {
-    setOp(document.querySelector('#multi')!.innerHTML);
+    setOp('multiply');
     console.log(op);
     setTemp(res);
     setRes('');
   }
 
   function Pow_Square() {
-    setOp(document.querySelector('#pow_square')!.innerHTML);
+    setOp('pow_2');
     console.log(op);
     setTemp(res);
     setRes('');
   }
 
   function Pow() {
-    setOp(document.querySelector('#pow')!.innerHTML);
+    setOp('pow_n');
     console.log(op);
     setTemp(res);
     setRes('');
   }
 
   function Root_Square() {
-    setOp(document.querySelector('#root_square')!.innerHTML);
+    setOp('root_2');
     console.log(op);
     setTemp(res);
     setRes('');
   }
 
   function Root() {
-    setOp(document.querySelector('#root')!.innerHTML);
+    setOp('root_n');
     console.log(op);
     setTemp(res);
     setRes('');
@@ -73,20 +73,26 @@ export default function Calculator() {
   function equal() {
     setTemp('');
     switch (op) {
-      case '+':
+      case 'plus':
         result = String(Number(temp) + Number(res));
         break;
-      case '-':
+      case 'minus':
         result = String(Number(temp) - Number(res));
         break;
-      case '*':
+      case 'multiply':
         result = String(Number(temp) * Number(res));
         break;
-      case '/':
+      case 'division':
         result = String(Number(temp) / Number(res));
         break;
-      case 'x<sup>2</sup>':
-        result = String(Math.pow(+res, 2));
+      case 'pow_2':
+        result = String(Math.pow(+temp, 2));
+        break;
+      case 'pow_n':
+        result = String(Math.pow(+temp, +res));
+        break;
+      case 'root_2':
+        result = String(Math.sqrt(+temp));
         break;
       default:
         console.log(':)');
@@ -105,10 +111,10 @@ export default function Calculator() {
           <button id='pow_square' onClick={() => Pow_Square()}>
             x<sup>2</sup>
           </button>
-          <button>
+          <button onClick={() => Pow()}>
             x<sup>n</sup>
           </button>
-          <button>r(2)</button>
+          <button onClick={() => Root_Square()}>r(2)</button>
           <button>r(n)</button>
         </div>
         <div className='row-4'>
